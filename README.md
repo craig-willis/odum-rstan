@@ -1,4 +1,4 @@
-Rocker-based Docker image definition for
+Rocker-based Docker image definition for:
 
 * R 3.4.1
 * rstan 2.12.1
@@ -7,8 +7,9 @@ Rocker-based Docker image definition for
 
 Also includes ggplot2, inline, gridExtra, RcppEigen, BH
 
-```
+Note that `install.R` uses MRAN with date `2016-09-13`.  The associated Docker image has been pushed to Dockerhub as `craigwillis/r-3.4.1-rstan-2.12.2`.
 
+```
 > sessionInfo()
 
 R version 3.4.1 (2017-06-30)
